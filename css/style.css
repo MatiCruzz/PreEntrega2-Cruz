@@ -339,7 +339,7 @@ footer{
 }
 
 
-/* css de MONITOREO */
+/* css de Servicios */
 .productos{
     display: flex;
     flex-direction: row;
@@ -383,6 +383,12 @@ footer{
              width: 100%;
         }
 
+/* css MONITOREO */
+.img-monitoreo{
+    width: 50%;
+}
+
+
 /* pseudo clase */
 nav ul li a:hover{
     color:red
@@ -397,8 +403,6 @@ p.txrespuesta::first-letter{
     /* distancia de letra */
     margin-right: 2px;            
 }
-
-/* CCS Y BOXMODEL DE CONTACTO */
 
 
 /* inica responsive */
