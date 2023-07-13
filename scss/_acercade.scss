@@ -1,0 +1,136 @@
+.titulons{
+    background-color: rgb(82, 81, 81);
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 600;
+
+     img{
+        width: 100px;
+    }
+}
+
+.pregunta1{
+    background-color: #ffffffec;
+    border: #302f2fec(189, 148, 101);
+    border-radius: 1%;
+}
+    
+.pregunta2{
+    background-color: #ffffffec;
+    border: #302f2fec(189, 148, 101);
+    border-radius: 2%;
+}
+
+.pregunta3{
+    background-color: antiquewhite;
+    border: antiquewhite;
+    border-radius: 2%;
+
+    figcaption{
+        font-size: 30px;
+        padding: 10px;
+        font-weight: 900;
+    }
+    p{
+        font-size: 16px;
+        padding: 15px;
+        line-height: 28px;
+    }
+}
+    
+.titpregunta{
+    font-size: 50px;
+    padding: 18px;
+    color: #5281aaec;
+    background-color: antiquewhite;
+}   
+.txrespuesta{
+   font-size: 18px;
+   padding: 18px ;
+   line-height: 30px;
+}
+
+.operador1{
+    background-color: #62696eec;
+    border: rgb(112, 40, 40);
+    border-radius: 2%;
+
+    img{
+        width: 80%;
+        padding: 15px;
+    }
+    p{
+        color: white;
+        padding: 18px;
+        font-size: 20px;
+        line-height: 23px
+    }
+}
+
+
+.operador2{
+    background-color: rgb(112, 40, 40);
+    border: rgb(112, 40, 40);
+    border-radius: 2%;
+
+    img{
+        width: 30%;
+        padding: 15px;
+    }
+    p{
+        color: white;
+        padding: 18px;
+        font-size: 20px;
+        line-height: 23px
+    }
+}
+//grids de acerca de
+
+.nosotros{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 70px repeat(3, 300px);
+    gap: 8px;
+    grid-template-areas: 
+    "titulons titulons titulons"
+    "pregunta1 pregunta1 operador1"
+    "pregunta2 pregunta2 operador1"
+    "pregunta3 operador2 operador2";
+    padding: 8px;
+}
+
+.nosotros .titulons{
+    grid-area: titulons;
+}
+
+.nosotros .pregunta1{
+    grid-area: pregunta1;
+}
+
+.nosotros .pregunta2{
+    grid-area: pregunta2;
+}
+
+.nosotros .pregunta3{
+    grid-area: pregunta3;
+}
+
+.nosotros .operador1{
+    grid-area: operador1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nosotros .operador2{
+    grid-area: operador2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+

@@ -1,0 +1,94 @@
+/* inica responsive */
+@media (width <768px){
+
+    /* NAV, FOOTER */
+        nav{
+            flex-direction: column;
+            font-size: 13px;      
+        }
+                nav ul li{
+                    margin-right: 10px;
+                }
+            nav img{
+                width: 100%;
+            }
+        footer{
+            flex-direction: column;
+        }
+     
+        
+    /* INICIO */
+    .inicio{
+        flex-direction: column;
+    }
+    .inicio figure{
+            width: 100%;
+        }
+    .inicio img{
+        width: 100%;
+    }
+    .inicio figure figcaption{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .inicio figure button{
+        padding: 20px 20px;
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }
+    
+    
+    /* ACERCA DE */
+    .nosotros{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "titulons"
+        "pregunta1"
+        "pregunta2"
+        "pregunta3"
+        "operador1"
+        "operador2"
+    }
+    .titulons{
+        padding: 20px;
+        font-size: 39px;
+    }
+        .titulons img{
+        width: 100px;
+        }
+    .pregunta3 figcaption{
+        font-size: 36px;
+        padding: 18px;
+        font-weight: 900;
+    }
+    .pregunta3 p{
+        font-size: 17px;
+        padding: 18px;
+    } 
+    .titpregunta{
+        font-size: 36px;
+    }   
+    .txrespuesta{
+        font-size: 17px;
+    }
+    .nosotros .operador2{
+        flex-direction: column;
+    }
+    .operador2 img{
+        width: 80%;
+    }
+    
+    
+    /* SERVICIOS */
+    .productos figure{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 5px;
+    }
+    
+    h1{
+        font-size: 40px;
+    }
+    
+    }

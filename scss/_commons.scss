@@ -21,3 +21,34 @@ h1,h2,h3{
 form label{
     display: block;
 }   
+
+main{
+    padding: 15px;
+}
+
+body{
+    background: rgb(143,169,184);
+    background: radial-gradient(circle, rgba(143,169,184,1) 16%, rgba(143,169,184,1) 30%, rgba(97,128,148,1) 67%);
+}
+
+header img{
+    width: 100%;
+}
+
+p{  
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}

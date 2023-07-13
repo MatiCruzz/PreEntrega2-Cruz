@@ -1,0 +1,12 @@
+
+p.txrespuesta::first-letter{
+    color: red;
+    /* tamaño de letra */
+    font-size: 1.4em;
+    /* ancho de letra  */
+    font-weight: 600;   
+    /* distancia de letra */
+    margin-right: 2px;            
+}
+
+

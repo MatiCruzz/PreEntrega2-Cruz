@@ -73,15 +73,15 @@ nav{
         color: #ffffffd8;
     }
 
-    .botonera img{
-        width: 150px;
-    }
-    .botonera a{
-        color: white;
-    }
-    .botonera button{
-        color: white;
-    }
+.botonera img{
+    width: 150px;
+}
+.botonera a{
+    color: white;
+}
+.botonera button{
+    color: white;
+}
 
 
 /* ccs de HEADER */
