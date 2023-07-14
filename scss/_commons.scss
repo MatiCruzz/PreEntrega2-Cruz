@@ -23,7 +23,7 @@ form label{
 }   
 
 main{
-    padding: 15px;
+    padding: 7px;
 }
 
 body{
@@ -51,4 +51,10 @@ p{
 
 .text-left{
     text-align: left;
+}
+
+.sombra1{
+    box-shadow: 1px 2px 5px 0px rgba(89,89,89,0.75);
+    -webkit-box-shadow: 1px 2px 5px 0px rgba(89,89,89,0.75);
+    -moz-box-shadow: 1px 2px 5px 0px rgba(89,89,89,0.75);
 }

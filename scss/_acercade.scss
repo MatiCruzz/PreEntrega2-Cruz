@@ -1,5 +1,5 @@
 .titulons{
-    background-color: rgb(82, 81, 81);
+    background-color: #575d61ec;
     padding: 10px;
     color: white;
     display: flex;
@@ -32,9 +32,9 @@
     border-radius: 2%;
 
     figcaption{
-        font-size: 30px;
+        font-size: 35px;
         padding: 10px;
-        font-weight: 900;
+        font-weight: 600;
     }
     p{
         font-size: 16px;
@@ -56,8 +56,8 @@
 }
 
 .operador1{
-    background-color: #62696eec;
-    border: rgb(112, 40, 40);
+    background-color: #575d61ec;
+    border: #575d61ec;
     border-radius: 2%;
 
     img{
@@ -74,8 +74,8 @@
 
 
 .operador2{
-    background-color: rgb(112, 40, 40);
-    border: rgb(112, 40, 40);
+    background-color: #575d61ec;
+    border: #575d61ec;
     border-radius: 2%;
 
     img{
@@ -89,6 +89,13 @@
         line-height: 23px
     }
 }
+
+.nombres{
+    font-size: 25px;
+    padding: 5px;
+    color: #d41f1ffd;
+    font-weight: 600;
+}   
 //grids de acerca de
 
 .nosotros{
@@ -102,35 +109,36 @@
     "pregunta2 pregunta2 operador1"
     "pregunta3 operador2 operador2";
     padding: 8px;
-}
 
-.nosotros .titulons{
-    grid-area: titulons;
-}
 
-.nosotros .pregunta1{
-    grid-area: pregunta1;
-}
+    .titulons{
+        grid-area: titulons;
+    }
 
-.nosotros .pregunta2{
-    grid-area: pregunta2;
-}
+    .pregunta1{
+        grid-area: pregunta1;
+    }
 
-.nosotros .pregunta3{
-    grid-area: pregunta3;
-}
+    .pregunta2{
+        grid-area: pregunta2;
+    }
 
-.nosotros .operador1{
-    grid-area: operador1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    .pregunta3{
+        grid-area: pregunta3;
+    }
 
-.nosotros .operador2{
-    grid-area: operador2;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    .operador1{
+        grid-area: operador1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .operador2{
+        grid-area: operador2;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 }
 

@@ -1,3 +1,10 @@
+.img-inicio{
+        width: 50%;
+
+    }
+.img-inicio2{
+    width: 50%;
+}
 .inicio{
     display: flex;
     flex-direction: row;
@@ -24,6 +31,7 @@
             margin-bottom: 20px;
             padding: 10px;
             line-height: 26px; 
+            font-weight: $textBold;
         }
 
         button{

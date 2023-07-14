@@ -32,12 +32,18 @@ nav{
     }   
     a{
     color: rgb(230, 214, 214);
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
     }
     button{
     color: white;
     }
     a:hover{
-        color:red
+        color:red;
+        background-size: 100% 2px;
     }
 } 
 
