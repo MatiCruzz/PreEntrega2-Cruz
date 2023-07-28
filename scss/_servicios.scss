@@ -6,40 +6,40 @@
     padding: 15px 20px;
 
     figure{
-        width: 30%;
-        border: solid #5281aaec;
-        border-radius: 2%;
-        padding:  10px;
-        background-color: #5281aaec;
-
+        width: 32%;
+        border-radius: $borderPercent;
+        padding: 10px;
+        background-color: $secondaryboxesColor;
         figcaption{
-            color: #fdfdfd;
-            font-size: 30px;
+            color: $keyColorSec;
+            font-size: $textMd;
             padding: 5px;
             font-weight: 500;
+            text-shadow: $shadowtext;
         }
         p{
-            font-size: 15px;
+            font-size: 18px;
             margin-bottom: 10px;
             padding: 10px;
             line-height: 26px;
-            font-weight: 600;
+            font-weight: $textRegular;
+            text-shadow: $shadowtext2;
         }
         button{
-            width: 100%;
+            width: $imgsize;
             border: none;
             padding: 12px 20px;
-            color: white;
-            background-color: rgb(46, 46, 46);
-            border-radius: 3px;
-            margin-bottom: 20px;  
+            color: $keyColorSec;
+            background-color: $tertiaryboxesColor;
+            border-radius: 5px;
+            margin-bottom: 30px;  
         
             a{
-             color: white;  
+             color: $keyColorSec;  
             }
         }
-    }
-    img{
-         width: 100%;
+        img{
+            width: $imgsize;
+        }
     }
 }

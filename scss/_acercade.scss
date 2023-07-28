@@ -1,103 +1,105 @@
 .titulons{
-    background-color: #575d61ec;
+    background-color: $mainColor;
     padding: 10px;
-    color: white;
+    color: $keyColorMain;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
-    font-weight: 600;
-
+    font-weight: $textBold;
      img{
         width: 100px;
     }
 }
 
 .pregunta1{
-    background-color: #ffffffec;
-    border: #302f2fec(189, 148, 101);
-    border-radius: 1%;
+    background-color: $mainColor;
+    border-radius: $borderPercent;
 }
     
 .pregunta2{
-    background-color: #ffffffec;
-    border: #302f2fec(189, 148, 101);
-    border-radius: 2%;
+    background-color: $mainColor;
+    border-radius: $borderPercent;
 }
 
 .pregunta3{
-    background-color: antiquewhite;
-    border: antiquewhite;
-    border-radius: 2%;
+    background-color: $box2Color;
+    border-radius: $borderPercent;
 
     figcaption{
-        font-size: 35px;
-        padding: 10px;
-        font-weight: 600;
+        font-size: $textSm;
+        padding: 5px 15px;
+        font-weight: $textBold;
     }
     p{
-        font-size: 16px;
         padding: 15px;
         line-height: 28px;
+        background-color: $mainColor;
     }
 }
     
 .titpregunta{
-    font-size: 50px;
+    font-size: $textMd;
+    font-weight: $textRegular;
     padding: 18px;
-    color: #5281aaec;
-    background-color: antiquewhite;
+    color: $keyColorTer;
+    background-color: $box2Color;
 }   
 .txrespuesta{
-   font-size: 18px;
-   padding: 18px ;
+   padding: 18px;
+   font-size: $textSm;
    line-height: 30px;
 }
 
 .operador1{
-    background-color: #575d61ec;
-    border: #575d61ec;
-    border-radius: 2%;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: $borderPercent;
+    background-color: $tertiaryboxesColor;
+    figcaption{
+        color: $keyColorMain;
+        font-weight: $textLight;
+        text-shadow: $shadowtext2;
+        text-decoration-line: underline;
+    }
     img{
-        width: 80%;
-        padding: 15px;
+        padding: 10px;
+        width: $imgsizeMd;
     }
     p{
-        color: white;
-        padding: 18px;
-        font-size: 20px;
-        line-height: 23px
+        color: $keyColorSec;
+        padding: 10px 20px;
+        font-size: $textSm;
+        line-height: 23px;
     }
 }
-
 
 .operador2{
-    background-color: #575d61ec;
-    border: #575d61ec;
-    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    background-color:  $tertiaryboxesColor;
+    border-radius: $borderPercent;
 
+    figcaption{
+        color: $keyColorMain; 
+        text-shadow: $shadowtext2;
+    }
     img{
-        width: 30%;
+        width: $imgsize;
         padding: 15px;
     }
     p{
-        color: white;
-        padding: 18px;
-        font-size: 20px;
-        line-height: 23px
+        font-size: $textSm;
+        padding: 10px;
+        line-height: 25px; 
+        color: $keyColorSec;
     }
 }
 
-.nombres{
-    font-size: 25px;
-    padding: 5px;
-    color: #d41f1ffd;
-    font-weight: 600;
-}   
 //grids de acerca de
-
 .nosotros{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -109,7 +111,6 @@
     "pregunta2 pregunta2 operador1"
     "pregunta3 operador2 operador2";
     padding: 8px;
-
 
     .titulons{
         grid-area: titulons;
@@ -129,16 +130,10 @@
 
     .operador1{
         grid-area: operador1;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 
     .operador2{
         grid-area: operador2;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
     }
 }
 

@@ -2,47 +2,37 @@ nav{
     background: rgb(58,99,145);
     background: linear-gradient(24deg, rgba(58,99,145,1) 47%, rgba(16,51,93,1) 92%);
     padding: 20px;
-    width: 100%;
+    width: $imgsize;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
-    font-weight: 600;
+    font-size: $textSm;
+    font-weight: $textBold;
         ul{ 
             list-style: none;
             display: flex;
             
             li{
-                margin-right: 40px; 
+                margin-right: 25px; 
             }
         }
         img{
-            width: 140px;
-            }
-        a{
-            text-decoration: none;
-            color: #050404d8;
+            width: $imgsizeMd;
             }
 }
 
 .botonera{
-    img{
-    width: 150px;
-    }   
     a{
-    color: rgb(230, 214, 214);
+    color: $keyColorSec;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size 0.3s;
     }
-    button{
-    color: white;
-    }
     a:hover{
-        color:red;
+        color:$keyColorMain;
         background-size: 100% 2px;
     }
 } 
@@ -51,15 +41,16 @@ footer{
     background: rgb(16,51,93);
     background: linear-gradient(24deg, rgba(16,51,93,1) 32%, rgba(58,99,145,1) 64%);
     padding: 10px;
-    color: white;
+    color: $keyColorSec;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
     svg{
-        width: 50px;
+        width: $imgsize;
         height: 35px;
+        padding: 0px 10px;
     }
 
     ul{
@@ -67,7 +58,7 @@ footer{
     }
 
     a{
-        color: white;
-        font-size: 18px;
+        color: $keyColorSec;
+        font-size: $textSm;
     }
 }

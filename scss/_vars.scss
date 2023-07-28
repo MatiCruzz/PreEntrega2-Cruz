@@ -1,27 +1,49 @@
 //colores
-$mainColor:rgb(42, 79, 160);
+$mainColor:rgb(245, 245, 245);
 $secondaryColor:rgb(141, 13, 13);
-$keyColor:rgb(20, 20, 20);
+$ter:rgb(20, 20, 20);
 
+//boxesColor
+$boxesColor:rgb(177, 177, 177);
+$secondaryboxesColor:#5281aaec;
+$box2Color:rgb(226, 226, 226);
+$tertiaryboxesColor: rgb(44, 75, 117, 0.76);
+$borderPercent: 2%;
+
+
+
+//colorstext
+$keyColorMain: #ff0000fd;
+$keyColorSec: rgb(248, 248, 248);
+$keyColorTer: #5281aaec;
+$shadowtext: -1px 1px 4px rgba(51, 51, 51, 1);
+$shadowtext2: 0px 1px 1px rgba(17, 17, 17, 0.9);
+
+//buttonColor
+$buttonColor: rgb(46, 46, 46);
 
 //fonts
 $mainFont:'Geologica', sans-serif;
 $secondaryFont: 'Verdana', sans-serif;
 
-
 //sizing
-$textSm:0.8em;
-$textMd:1em;
-$textLg:1.6em;
-$textXl:2.0em;
+$textSm:1.3em;
+$textMd:2.5em;
+$textLg:3.2em;
+$textXl:3.8em;
 
 //weight
 $textBold:600;
 $textLight:300;
-$textRegular:400;
+$textRegular:480;
 
 p{
     font-family: $mainFont;
     color: $secondaryColor;
     font-size: $textMd;   
 }
+
+//img
+$imgsize: 100%;
+$imgsizeMd: 70%;
+$mgsizeSm: 50%;

@@ -13,30 +13,28 @@
                 width: 100%;
             }
         footer{
-            flex-direction: column;
+            flex-direction: row;
         }
-     
-        
+         
     /* INICIO */
     .inicio{
         flex-direction: column;
-    }
-    .inicio figure{
+        figure{
             width: 100%;
+            img{
+            width: 100%;
+            }
+            figcaption{
+            font-size: 40px;
+            font-weight: 600;
+            }
+            button{
+            padding: 20px 20px;
+            border-radius: 3px;
+            margin-bottom: 20px;
+            }
         }
-    .inicio img{
-        width: 100%;
     }
-    .inicio figure figcaption{
-        font-size: 40px;
-        font-weight: 600;
-    }
-    .inicio figure button{
-        padding: 20px 20px;
-        border-radius: 3px;
-        margin-bottom: 20px;
-    }
-    
     
     /* ACERCA DE */
     .nosotros{
@@ -79,7 +77,6 @@
         width: 80%;
     }
     
-    
     /* SERVICIOS */
     .productos figure{
         width: 100%;
@@ -90,5 +87,26 @@
     h1{
         font-size: 40px;
     }
-    
+
+    /* MONITOREO */
+    .iniciomonitoreo{
+        flex-direction: column;
+        figure{
+            width: 100%;
+            figcaption{
+                font-size: $textMd;
+            }
+        }
     }
+    .funcion{
+        flex-direction: column;
+        margin-bottom: 20px;
+        padding: 5px;
+        figure{
+            width: 100%;
+            figcaption{
+                font-size: 30px;
+            }
+        }
+    }
+}

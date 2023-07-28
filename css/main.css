@@ -2,17 +2,18 @@
 p {
   font-family: "Geologica", sans-serif;
   color: rgb(141, 13, 13);
-  font-size: 1em;
+  font-size: 2.5em;
 }
 
 h1 {
   color: rgba(255, 0, 0, 0.9921568627);
-  font-size: 50px;
+  font-size: 3.8em;
+  padding: 10px;
+  text-shadow: -1px 1px 4px rgb(51, 51, 51);
 }
 
 h2 {
-  color: rgba(255, 255, 255, 0.9254901961);
-  font-size: 45px;
+  color: rgb(248, 248, 248);
 }
 
 h3 {
@@ -20,7 +21,7 @@ h3 {
 }
 
 h1, h2, h3 {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 form label {
@@ -73,7 +74,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 22px;
+  font-size: 1.3em;
   font-weight: 600;
 }
 nav ul {
@@ -81,32 +82,22 @@ nav ul {
   display: flex;
 }
 nav ul li {
-  margin-right: 40px;
+  margin-right: 25px;
 }
 nav img {
-  width: 140px;
-}
-nav a {
-  text-decoration: none;
-  color: rgba(5, 4, 4, 0.8470588235);
+  width: 70%;
 }
 
-.botonera img {
-  width: 150px;
-}
 .botonera a {
-  color: rgb(230, 214, 214);
+  color: rgb(248, 248, 248);
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 2px;
   transition: background-size 0.3s;
 }
-.botonera button {
-  color: white;
-}
 .botonera a:hover {
-  color: red;
+  color: rgba(255, 0, 0, 0.9921568627);
   background-size: 100% 2px;
 }
 
@@ -114,30 +105,23 @@ footer {
   background: rgb(16, 51, 93);
   background: linear-gradient(24deg, rgb(16, 51, 93) 32%, rgb(58, 99, 145) 64%);
   padding: 10px;
-  color: white;
+  color: rgb(248, 248, 248);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 footer svg {
-  width: 50px;
+  width: 100%;
   height: 35px;
+  padding: 0px 10px;
 }
 footer ul {
   list-style: none;
 }
 footer a {
-  color: white;
-  font-size: 18px;
-}
-
-.img-inicio {
-  width: 50%;
-}
-
-.img-inicio2 {
-  width: 50%;
+  color: rgb(248, 248, 248);
+  font-size: 1.3em;
 }
 
 .inicio {
@@ -146,64 +130,52 @@ footer a {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 10px;
-  margin: 14px 0px;
+  padding: 5px;
+  margin: 15px;
+  background-color: rgb(177, 177, 177);
 }
 .inicio figure {
-  width: 50%;
+  width: 45%;
   border: solid rgba(82, 129, 170, 0.9254901961);
   border-radius: 2%;
-  padding: 0 10px;
+  padding: 70px 10px;
   background-color: rgba(82, 129, 170, 0.9254901961);
 }
 .inicio figure figcaption {
-  color: #fdfdfd;
-  font-size: 60px;
+  color: rgb(248, 248, 248);
+  font-size: 3.2em;
   font-weight: 600;
 }
 .inicio figure p {
-  font-size: 20px;
+  font-size: 1.3em;
   margin-bottom: 20px;
   padding: 10px;
-  line-height: 26px;
+  line-height: 30px;
   font-weight: 600;
 }
 .inicio figure button {
   border: none;
   padding: 12px 20px;
-  color: white;
   background-color: rgb(46, 46, 46);
-  border-radius: 3px;
+  border-radius: 2%;
   margin-bottom: 20px;
 }
 .inicio figure button a {
-  color: white;
+  color: rgb(248, 248, 248);
 }
 .inicio img {
-  width: 91%;
-}
-
-.fondo-gris {
-  background-color: gray;
-  border: solid gray;
-  border-radius: 1%;
-}
-
-.fondo-grisclaro {
-  background-color: rgb(168, 168, 168);
-  border: solid rgb(168, 168, 168);
-  border-radius: 1%;
+  width: 100%;
+  padding: 0px 10px;
 }
 
 .titulons {
-  background-color: rgba(87, 93, 97, 0.9254901961);
+  background-color: rgb(245, 245, 245);
   padding: 10px;
-  color: white;
+  color: rgba(255, 0, 0, 0.9921568627);
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
-  font-size: 50px;
   font-weight: 600;
 }
 .titulons img {
@@ -211,83 +183,89 @@ footer a {
 }
 
 .pregunta1 {
-  background-color: rgba(255, 255, 255, 0.9254901961);
-  border: rgba(48, 47, 47, 0.9254901961) 189, 148, 101;
-  border-radius: 1%;
+  background-color: rgb(245, 245, 245);
+  border-radius: 2%;
 }
 
 .pregunta2 {
-  background-color: rgba(255, 255, 255, 0.9254901961);
-  border: rgba(48, 47, 47, 0.9254901961) 189, 148, 101;
+  background-color: rgb(245, 245, 245);
   border-radius: 2%;
 }
 
 .pregunta3 {
-  background-color: antiquewhite;
-  border: antiquewhite;
+  background-color: rgb(226, 226, 226);
   border-radius: 2%;
 }
 .pregunta3 figcaption {
-  font-size: 35px;
-  padding: 10px;
+  font-size: 1.3em;
+  padding: 5px 15px;
   font-weight: 600;
 }
 .pregunta3 p {
-  font-size: 16px;
   padding: 15px;
   line-height: 28px;
+  background-color: rgb(245, 245, 245);
 }
 
 .titpregunta {
-  font-size: 50px;
+  font-size: 2.5em;
+  font-weight: 480;
   padding: 18px;
   color: rgba(82, 129, 170, 0.9254901961);
-  background-color: antiquewhite;
+  background-color: rgb(226, 226, 226);
 }
 
 .txrespuesta {
-  font-size: 18px;
   padding: 18px;
+  font-size: 1.3em;
   line-height: 30px;
 }
 
 .operador1 {
-  background-color: rgba(87, 93, 97, 0.9254901961);
-  border: rgba(87, 93, 97, 0.9254901961);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border-radius: 2%;
+  background-color: rgba(44, 75, 117, 0.76);
+}
+.operador1 figcaption {
+  color: rgba(255, 0, 0, 0.9921568627);
+  font-weight: 300;
+  text-shadow: 0px 1px 1px rgba(17, 17, 17, 0.9);
+  text-decoration-line: underline;
 }
 .operador1 img {
-  width: 80%;
-  padding: 15px;
+  padding: 10px;
+  width: 70%;
 }
 .operador1 p {
-  color: white;
-  padding: 18px;
-  font-size: 20px;
+  color: rgb(248, 248, 248);
+  padding: 10px 20px;
+  font-size: 1.3em;
   line-height: 23px;
 }
 
 .operador2 {
-  background-color: rgba(87, 93, 97, 0.9254901961);
-  border: rgba(87, 93, 97, 0.9254901961);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(44, 75, 117, 0.76);
   border-radius: 2%;
 }
+.operador2 figcaption {
+  color: rgba(255, 0, 0, 0.9921568627);
+  text-shadow: 0px 1px 1px rgba(17, 17, 17, 0.9);
+}
 .operador2 img {
-  width: 30%;
+  width: 100%;
   padding: 15px;
 }
 .operador2 p {
-  color: white;
-  padding: 18px;
-  font-size: 20px;
-  line-height: 23px;
-}
-
-.nombres {
-  font-size: 25px;
-  padding: 5px;
-  color: rgba(212, 31, 31, 0.9921568627);
-  font-weight: 600;
+  font-size: 1.3em;
+  padding: 10px;
+  line-height: 25px;
+  color: rgb(248, 248, 248);
 }
 
 .nosotros {
@@ -312,19 +290,81 @@ footer a {
 }
 .nosotros .operador1 {
   grid-area: operador1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .nosotros .operador2 {
   grid-area: operador2;
+}
+
+.cajacontacto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: right;
+  background-color: rgb(177, 177, 177);
+}
+.cajacontacto img {
+  width: 20%;
+  border-radius: 15px;
+}
+
+form.row.g-3 {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.label {
+  width: 500px;
+}
+
+.mapa {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.iniciomonitoreo {
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  margin: 15px;
+  background-color: rgb(177, 177, 177);
 }
-
-.img-monitoreo {
-  width: 50%;
+.iniciomonitoreo figure {
+  width: 44%;
+  border: solid rgba(82, 129, 170, 0.9254901961);
+  border-radius: 2%;
+  padding: 28px 10px;
+  background-color: rgba(82, 129, 170, 0.9254901961);
+}
+.iniciomonitoreo figure figcaption {
+  color: rgb(248, 248, 248);
+  font-size: 3.2em;
+  font-weight: 600;
+}
+.iniciomonitoreo figure p {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  padding: 10px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.iniciomonitoreo figure button {
+  border: none;
+  padding: 12px 20px;
+  background-color: rgb(46, 46, 46);
+  border-radius: 2%;
+  margin-bottom: 20px;
+}
+.iniciomonitoreo figure button a {
+  color: rgb(248, 248, 248);
+}
+.iniciomonitoreo img {
+  width: 100%;
+  padding: 20px 20px;
 }
 
 .funcion {
@@ -332,30 +372,30 @@ footer a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 1px;
 }
 .funcion figure {
   width: 47%;
-  border: solid rgb(221, 221, 221);
+  border: solid rgb(226, 226, 226);
   border-radius: 2%;
   padding: 20px;
-  background-color: rgb(216, 213, 213);
+  background-color: rgb(226, 226, 226);
 }
 .funcion figure figcaption {
-  color: #f14747;
-  font-size: 30px;
+  color: rgba(255, 0, 0, 0.9921568627);
+  font-size: 2.5em;
   padding: 5px;
   font-weight: 750;
+  text-shadow: -1px 1px 4px rgb(51, 51, 51);
 }
 .funcion figure p {
-  font-size: 20px;
+  font-size: 1.3em;
   margin-bottom: 10px;
   padding: 10px;
   line-height: 26px;
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.9254901961);
-  border-radius: 3px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 2%;
 }
 .funcion figure img {
   width: 100%;
@@ -369,38 +409,39 @@ footer a {
   padding: 15px 20px;
 }
 .productos figure {
-  width: 30%;
-  border: solid rgba(82, 129, 170, 0.9254901961);
+  width: 32%;
   border-radius: 2%;
   padding: 10px;
   background-color: rgba(82, 129, 170, 0.9254901961);
 }
 .productos figure figcaption {
-  color: #fdfdfd;
-  font-size: 30px;
+  color: rgb(248, 248, 248);
+  font-size: 2.5em;
   padding: 5px;
   font-weight: 500;
+  text-shadow: -1px 1px 4px rgb(51, 51, 51);
 }
 .productos figure p {
-  font-size: 15px;
+  font-size: 18px;
   margin-bottom: 10px;
   padding: 10px;
   line-height: 26px;
-  font-weight: 600;
+  font-weight: 480;
+  text-shadow: 0px 1px 1px rgba(17, 17, 17, 0.9);
 }
 .productos figure button {
   width: 100%;
   border: none;
   padding: 12px 20px;
-  color: white;
-  background-color: rgb(46, 46, 46);
-  border-radius: 3px;
-  margin-bottom: 20px;
+  color: rgb(248, 248, 248);
+  background-color: rgba(44, 75, 117, 0.76);
+  border-radius: 5px;
+  margin-bottom: 30px;
 }
 .productos figure button a {
-  color: white;
+  color: rgb(248, 248, 248);
 }
-.productos img {
+.productos figure img {
   width: 100%;
 }
 
@@ -418,7 +459,7 @@ footer a {
     width: 100%;
   }
   footer {
-    flex-direction: column;
+    flex-direction: row;
   }
   /* INICIO */
   .inicio {
@@ -427,7 +468,7 @@ footer a {
   .inicio figure {
     width: 100%;
   }
-  .inicio img {
+  .inicio figure img {
     width: 100%;
   }
   .inicio figure figcaption {
@@ -481,6 +522,27 @@ footer a {
   }
   h1 {
     font-size: 40px;
+  }
+  /* MONITOREO */
+  .iniciomonitoreo {
+    flex-direction: column;
+  }
+  .iniciomonitoreo figure {
+    width: 100%;
+  }
+  .iniciomonitoreo figure figcaption {
+    font-size: 2.5em;
+  }
+  .funcion {
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+  .funcion figure {
+    width: 100%;
+  }
+  .funcion figure figcaption {
+    font-size: 30px;
   }
 }
 

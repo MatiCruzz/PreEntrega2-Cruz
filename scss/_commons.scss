@@ -1,13 +1,14 @@
 //todo lo comun
 
 h1{
-    color: #ff0000fd;
-    font-size: 50px;
+    color: $keyColorMain;
+    font-size: $textXl;
+    padding: 10px;
+    text-shadow: $shadowtext;
 }
 
 h2{
-    color: #ffffffec;
-    font-size: 45px;
+    color: $keyColorSec;
 }
 
 h3{
@@ -15,7 +16,7 @@ h3{
 }
 
 h1,h2,h3{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 form label{

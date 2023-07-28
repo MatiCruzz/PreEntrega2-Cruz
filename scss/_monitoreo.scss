@@ -1,39 +1,83 @@
-.img-monitoreo{
-    width: 50%;
-}
+.iniciomonitoreo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin: 15px;
+    background-color: $boxesColor;
+
+
+    figure{
+        width: 44%;
+        border: solid $secondaryboxesColor;
+        border-radius: $borderPercent;
+        padding: 28px 10px; 
+        background-color: $secondaryboxesColor;
+
+        figcaption{
+            color: $keyColorSec;
+            font-size: $textLg;
+            font-weight: $textBold;
+        }
+        p{
+            font-size: $textSm;
+            margin-bottom: 20px;
+            padding: 10px;
+            line-height: 30px; 
+            font-weight: $textBold;
+        }
+
+        button{
+            border: none;
+            padding: 12px 20px;
+            background-color: $buttonColor;
+            border-radius: $borderPercent;
+            margin-bottom: 20px;
+            a{
+                color: $keyColorSec;
+            }
+        }     
+    }
+    img{
+        width: $imgsize;
+        padding: 20px 20px;
+    }
+} 
 
 .funcion{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 1px;
 
     figure{
         width: 47%;
-        border: solid rgb(221, 221, 221);
-        border-radius: 2%;
-        padding:  20px;
-        background-color: rgb(216, 213, 213);
+        border: solid $box2Color;
+        border-radius: $borderPercent;
+        padding: 20px;
+        background-color: $box2Color;
 
         figcaption{
-            color: #f14747;
-            font-size: 30px;
+            color: $keyColorMain;
+            font-size: $textMd;
             padding: 5px;
             font-weight: 750;
+            text-shadow: $shadowtext;
         }
         p{
-            font-size: 20px;
+            font-size: $textSm;
             margin-bottom: 10px;
             padding: 10px;
             line-height: 26px;
-            font-weight: 700;
+            font-weight: $textBold;
             text-align: center;
-            background-color: #ffffffec;
-            border-radius: 3px;
+            background-color: $mainColor;
+            border-radius: $borderPercent;
         }
         img{
-            width: 100%;
+            width: $imgsize;
         }
     }
 }
