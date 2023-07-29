@@ -1,9 +1,5 @@
 .iniciomonitoreo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
+    @include flex(row,center,center,wrap);
     padding: 10px;
     margin: 15px;
     background-color: $boxesColor;
@@ -47,11 +43,7 @@
 } 
 
 .funcion{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
+    @include flex(row,space-around,normal,wrap);
     figure{
         width: 47%;
         border: solid $box2Color;

@@ -3,10 +3,7 @@ nav{
     background: linear-gradient(24deg, rgba(58,99,145,1) 47%, rgba(16,51,93,1) 92%);
     padding: 20px;
     width: $imgsize;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex(column,center,center,nowrap); 
     font-size: $textSm;
     font-weight: $textBold;
         ul{ 
@@ -42,10 +39,8 @@ footer{
     background: linear-gradient(24deg, rgba(16,51,93,1) 32%, rgba(58,99,145,1) 64%);
     padding: 10px;
     color: $keyColorSec;
+    @include flex(row,center,center,nowrap); 
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 
     svg{
         width: $imgsize;
@@ -61,4 +56,26 @@ footer{
         color: $keyColorSec;
         font-size: $textSm;
     }
+}
+
+.error{
+    background-color: $boxesColor;
+    width: 100%;
+    p{
+        font-size: $textSm;
+        padding: 10px;
+        line-height: 25px; 
+        color: $keyColorMain;
+        text-shadow: $shadowtext;
+        font-weight: $textBold;
+    }
+    img{
+        width: 100%;
+    }
+    a{
+        font-size: $textSm;
+        font-weight: $textBold;
+        padding: 10px;
+    }
+
 }

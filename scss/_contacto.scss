@@ -1,27 +1,17 @@
 .cajacontacto{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: right;
+    @include flex(row,right,normal,wrap);
     background-color: $boxesColor;
-
-    img{
-        width: 20%;
-        border-radius: 15px;
-    }
+    width: 100%;
 }
 form.row.g-3 {
-    width: 50%;
+    width: 60%;
     display: block;
     margin: 0 auto;
-}
-
-.label{
-    width: 500px;
 }
 
 .mapa{
     display: block;
     margin: 0 auto; 
-    width: 80%;
+    width: 90%;
+    padding: 10px 10px;
 }

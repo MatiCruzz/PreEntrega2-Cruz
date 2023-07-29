@@ -1,8 +1,5 @@
 .productos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    @include flex(row,space-around,normal,wrap);
     padding: 15px 20px;
 
     figure{
